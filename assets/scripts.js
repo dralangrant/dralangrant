@@ -276,7 +276,7 @@ var optionsLine = {
     offsetX: 20
   },
   subtitle: {
-    text: 'Percent of budget spent on keepers and by position in order of final standings from left-to-right',
+    text: 'Keeper, QB, RB and WR spend PCT',
     offsetY: 55,
     offsetX: 20
   },

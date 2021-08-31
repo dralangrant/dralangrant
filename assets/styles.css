@@ -13,15 +13,11 @@ h1, h2, h3, h4, h5, h6, strong {
   font-weight: 600;
 }
 
-body {
-  /*background: linear-gradient(45deg,#3a3a60,#5f5f8e);
-  min-height: 100vh;*/
-}
-
 .dash-title {
   text-align: center;
-  color: #f6c600;
+  color: #f5f5f5;
   font-size: 40px;
+  text-shadow: 1px 1px 1px;
 }
 
 .content-area {
@@ -44,6 +40,7 @@ body {
   box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.08);
   position: relative;
   border-radius: 5px;
+  margin: 15px;
 }
 
 .sparkboxes .box .details {
