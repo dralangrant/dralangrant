@@ -234,7 +234,7 @@ new ApexCharts(document.querySelector("#spark4"), spark4).render();
 
 var optionsLine = {
   chart: {
-    height: 328,
+    height: 425,
     type: 'line',
     zoom: {
       enabled: false
@@ -273,12 +273,14 @@ var optionsLine = {
     text: 'Draft Budget Spend Breakdown',
     align: 'left',
     offsetY: 25,
-    offsetX: 20
+    offsetX: 20,
+    margin: 20
   },
   subtitle: {
     text: 'Keeper, QB, RB and WR spend PCT',
     offsetY: 55,
-    offsetX: 20
+    offsetX: 20,
+    margin: 20
   },
   markers: {
     size: 6,
@@ -300,9 +302,9 @@ var optionsLine = {
     }
   },
   legend: {
-    position: 'top',
-    horizontalAlign: 'right',
-    offsetY: -20
+    position: 'bottom',
+    horizontalAlign: 'center',
+    margin: 50
   }
 }
 
